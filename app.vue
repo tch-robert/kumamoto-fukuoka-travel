@@ -3,7 +3,7 @@
     <!-- Header -->
     <header class="app-header glass-panel">
       <div class="header-container">
-        <h1>九州旅遊會議 📍</h1>
+        <h1>熊本福岡之旅 📍</h1>
 
         <div v-if="roleName" class="user-profile">
           <span class="greeting"
