@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: false },
   app: {
-    baseURL: process.env.NODE_ENV === "production" ? "./" : "/", // 只有生產環境使用相對路徑，避免開發時出錯
+    baseURL: process.env.NODE_ENV === "production" ? "/kumamoto-fukuoka-travel/" : "/", // 只有生產環境使用 Repo 名稱作為路徑，避免 GitHub Pages 找不到資源
     buildAssetsDir: "assets", // 避免 GitHub Pages 忽略以底線開頭的目錄
     head: {
       title: "熊本福岡旅行景點評分",
